@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Quiz</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body id="app">
+        <div class="container">
+            <h1>Quiz do Casal</h1>
+            <div id="form">
+                <div class="question">
+                    <h2 id="question-string"></h2>
+                    <div class="answers">
+                        <label for="answer-a">
+                            <input
+                                type="radio"
+                                name="answer"
+                                id="answer-a"
+                                value="a"
+                            />
+                            A - <span id="A"></span>
+                        </label>
+                        <label for="answer-b">
+                            <input
+                                type="radio"
+                                name="answer"
+                                id="answer-b"
+                                value="b"
+                            />
+                            B - <span id="B"></span>
+                        </label>
+                        <label for="answer-c">
+                            <input
+                                type="radio"
+                                name="answer"
+                                id="answer-c"
+                                value="c"
+                            />
+                            C - <span id="C"></span>
+                        </label>
+                        <label for="answer-d">
+                            <input
+                                type="radio"
+                                name="answer"
+                                id="answer-d"
+                                value="d"
+                            />
+                            D - <span id="D"></span>
+                        </label>
+                        <label for="answer-e">
+                            <input
+                                type="radio"
+                                name="answer"
+                                id="answer-e"
+                                value="e"
+                            />
+                            E - <span id="E"></span>
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="submit-button">Enviar</button>
+            </div>
+        </div>
+    </body>
+</html>

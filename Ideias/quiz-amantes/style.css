@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+
+
+    background: linear-gradient(to bottom right, #222, #333, #444, #555, #666);
+    /* adicionando o degradê */
+}
+
+.body::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    left: -10px;
+    right: -10px;
+    z-index: -1;
+    background-image: url('https://unpkg.com/shadows.css/dist/shadows.min.css');
+    /* adicionando o arquivo de sombras */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to bottom right, #ff355e, #00a8e8);
+    /* adicionando o degradê */
+}
+
+
+h1 {
+    text-align: center;
+    color: #ddd;
+    margin-top: 50px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question h2 {
+    margin-top: 0;
+    color: #ddd;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    cursor: pointer !important;
+    transition: .3s;
+}
+
+.answers label {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #eee;
+    color: #555;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.answers label:hover {
+    background-color: #ddd;
+}
+
+.answers input[type="radio"] {
+    cursor: pointer !important;
+}
+
+.answers input[type="radio"]:checked+label {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.submit-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #d9d9d9;
+}

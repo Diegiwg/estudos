@@ -1,0 +1,101 @@
+[
+    {
+        "pergunta": "Qual é a cor favorita do seu namorado(a)?",
+        "alternativas": [
+            "Azul",
+            "Verde",
+            "Vermelho",
+            "Amarelo",
+            "Preto"
+        ],
+        "resposta": "Azul"
+    },
+    {
+        "pergunta": "Qual é a comida favorita do seu namorado(a)?",
+        "alternativas": [
+            "Pizza",
+            "Hambúrguer",
+            "Sushi",
+            "Churrasco",
+            "Lasanha"
+        ],
+        "resposta": "Sushi"
+    },
+    {
+        "pergunta": "Qual é o time de futebol favorito do seu namorado(a)?",
+        "alternativas": [
+            "Flamengo",
+            "Corinthians",
+            "São Paulo",
+            "Palmeiras",
+            "Vasco"
+        ],
+        "resposta": "Palmeiras"
+    },
+    {
+        "pergunta": "Qual é o lugar dos sonhos do seu namorado(a) para viajar?",
+        "alternativas": [
+            "Paris",
+            "Nova York",
+            "Tóquio",
+            "Barcelona",
+            "Sydney"
+        ],
+        "resposta": "Tóquio"
+    },
+    {
+        "pergunta": "Qual é o hobby favorito do seu namorado(a)?",
+        "alternativas": [
+            "Jogar videogame",
+            "Ler livros",
+            "Assistir séries",
+            "Cozinhar",
+            "Praticar esportes"
+        ],
+        "resposta": "Cozinhar"
+    },
+    {
+        "pergunta": "Qual é o animal favorito do seu namorado(a)?",
+        "alternativas": [
+            "Cachorro",
+            "Gato",
+            "Papagaio",
+            "Cavalo",
+            "Coelho"
+        ],
+        "resposta": "Cachorro"
+    },
+    {
+        "pergunta": "Qual é a marca de roupa preferida do seu namorado(a)?",
+        "alternativas": [
+            "Nike",
+            "Adidas",
+            "Puma",
+            "Gucci",
+            "Zara"
+        ],
+        "resposta": "Gucci"
+    },
+    {
+        "pergunta": "Qual é a bebida preferida do seu namorado(a)?",
+        "alternativas": [
+            "Cerveja",
+            "Vinho",
+            "Whisky",
+            "Vodka",
+            "Tequila"
+        ],
+        "resposta": "Whisky"
+    },
+    {
+        "pergunta": "Qual é o programa de TV favorito do seu namorado(a)?",
+        "alternativas": [
+            "Game of Thrones",
+            "Friends",
+            "Breaking Bad",
+            "The Office",
+            "Stranger Things"
+        ],
+        "resposta": "Friends"
+    }
+]
